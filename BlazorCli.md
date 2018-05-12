@@ -4,7 +4,7 @@
 
 Taking inspiration from Vue that can [build SFC (Single File Component) `*.vue`](https://github.com/vuejs/vue-cli/blob/dev/docs/cli.md#vue-build) into redistributable [package](https://github.com/vuejs/vue-cli/blob/dev/docs/build-targets.md#library), it would be nice if Blazor can do the same thing. Because Blazor [can be compiled into](http://blog.stevensanderson.com/2018/02/06/blazor-intro/) `*.dll` (AOT compiled mode) and `.wasm` (interpreted mode), it also make sense to have ability to build and publish single Blazor Component (`.cshtml`) into NuGet and/or NPM for shareabilitiy.
 
-<details>
+<details open>
 <summary>Given this Blazor Component (if in the future Blazor support F#)</summary>
 
 with usage
@@ -13,7 +13,7 @@ with usage
 <Propeller diameter="120cm" power="24W" propconstant="3.2" scale="0.5px/cm" />
 ```
 
-#### then the implementation of `Propeller.fshtml` will be
+###### then the implementation of `Propeller.fshtml` will be
 
 ```fs
 <!-- https://codepen.io/drsensor/pen/ELEzWb -->
