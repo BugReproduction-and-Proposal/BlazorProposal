@@ -7,7 +7,7 @@ Taking inspiration from Vue that can [build SFC (Single File Component) `*.vue`]
 <details open>
 <summary>Given this Blazor Component (if in the future Blazor support F#)</summary>
 
-with usage
+###### with usage
 
 ```html
 <Propeller diameter="120cm" power="24W" propconstant="3.2" scale="0.5px/cm" />
