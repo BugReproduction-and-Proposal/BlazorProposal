@@ -13,7 +13,7 @@ with usage
 <Propeller diameter="120cm" power="24W" propconstant="3.2" scale="0.5px/cm" />
 ```
 
-then the implementation of `Propeller.fshtml` will be
+#### then the implementation of `Propeller.fshtml` will be
 
 ```fs
 <!-- https://codepen.io/drsensor/pen/ELEzWb -->
